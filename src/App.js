@@ -43,7 +43,7 @@ export default function App() {
         <button onClick={addItem}>Add Item</button>
       </div>
 
-      <button type="button" onClick={getData}>Get New Friends</button>
+      <button type="button" onClick={getData} id="load-friends">Get New Friends</button>
 
       <ul>{itemList}</ul>
     </div>
